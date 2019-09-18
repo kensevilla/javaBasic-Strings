@@ -170,6 +170,24 @@ https://www.geeksforgeeks.org/java-string-trim-method-example/
 -> None
 
 
+**should_convert_unicode_escape**
+
+**What is the knowledge point of the test? Where is the official document to the knowledge point?**
+
+-> that we can use hexadecimal for special characters with the proper use of escape. https://stackoverflow.com/questions/21522770/unicode-escape-syntax-in-java
+
+**Why the test failed at first?**
+
+-> at first I was trying to put the value of the unicode directly without using escape.
+
+**Why you corrected the test that way?**
+
+-> I just need to use '\' to make java think that it is not an actual sting but instead a hexadecimal value for a character
+
+**Do you have further questions on this knowledge point?**
+
+-> None
+
 
 **should_reverse_a_string**
 

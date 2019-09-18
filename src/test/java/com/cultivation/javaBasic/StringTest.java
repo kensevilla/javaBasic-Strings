@@ -181,7 +181,7 @@ class StringTest {
         // こ - U+3053
         // れ - U+308c
         // <--Start
-        final String actual = "なにこれ";
+        final String actual = "\u306a\u306b\u3053\u308c";
         // --End-->
 
         assertEquals(expected, actual);
