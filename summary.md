@@ -151,6 +151,25 @@ https://www.geeksforgeeks.org/java-string-trim-method-example/
 
 
 
+**should_create_ascii_art**
+
+**What is the knowledge point of the test? Where is the official document to the knowledge point?**
+
+-> the use of StringBuilber and append. https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/
+
+**Why the test failed at first?**
+
+-> at first we can see that variable builder has no value which is different from the expected value.
+**Why you corrected the test that way?**
+
+-> since the variable is a StringBuilder, I can just use the method append to basically concat the string that I want to add. 
+
+**Do you have further questions on this knowledge point?**
+
+-> None
+
+
+
 **should_calculate_checksum_of_a_string**
 
 **What is the knowledge point of the test? Where is the official document to the knowledge point?**
